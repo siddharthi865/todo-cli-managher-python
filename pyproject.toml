@@ -1,0 +1,11 @@
+[project]
+name = "cli-todo-manager"
+version = "0.1.0"
+description = "A simple CLI To-Do manager"
+authors = [{name = "Siddharth"}]
+requires-python = ">=3.10"
+
+dependencies = []
+
+[project.scripts]
+todo = "todo_cli.main:main"
